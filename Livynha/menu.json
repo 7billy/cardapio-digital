@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nome": "X-Burguer",
+    "preco": 20,
+    "descricao": "Pão, carne, queijo e molho especial",
+    "imagem": ""
+  },
+  {
+    "id": 2,
+    "nome": "X-Salada",
+    "preco": 22,
+    "descricao": "Pão, carne, queijo, alface e tomate",
+    "imagem": ""
+  }
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Cardápio Digital</h1>
+
+  <div id="menu">
+
+    <div class="item">
+      <img src="" alt="">
+      <h3>X-Burguer</h3>
+      <p>Pão, hambúrguer, queijo, maionese.</p>
+      <p><strong>R$ 20,00</strong></p>
+      <button onclick="adicionarAoCarrinho('X-Burguer', 20)">Adicionar</button>
+    </div>
+
+    <div class="item">
+      <img src="" alt="">
+      <h3>X-Salada</h3>
+      <p>Pão, hambúrguer, queijo, alface, tomate, maionese.</p>
+      <p><strong>R$ 22,00</strong></p>
+      <button onclick="adicionarAoCarrinho('X-Salada', 22)">Adicionar</button>
+    </div>
+
+  </div>
+  </div>
+
+  <h2>Pedido</h2>
+  <ul id="carrinho"></ul>
+  <p id="total">Total: R$ 0,00</p>
+  <button onclick="enviarPedido()">Enviar Pedido</button>
+
+  <h2>Pagamento</h2>
+  <p>Chave Pix: <strong>seuemail@pix.com.br</strong></p>
+  <button onclick="copiarPix()">Copiar Chave</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
